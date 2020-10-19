@@ -1,3 +1,5 @@
+#include "nibun.hpp"
+
 double cmax_dist(double a, double x, double e)
 {
       double s = 0.5 * a * a * x;
