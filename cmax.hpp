@@ -1,4 +1,5 @@
 // 2分法で求めた x の値から P が最大値（＝cmax）を求める
+#include "nibun.hpp"
 
 double cmax_dist(double a, double x, double e)
 {
