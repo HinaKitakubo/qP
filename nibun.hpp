@@ -11,7 +11,7 @@ double p(double X, double a)   // dP(x)/dx の分子を整理した式
 
 double nibun(double X, double a)
 {
-   double x_1, x_2;
+   double x, x_1, x_2;
 
    x_1 = 0.0;
    x_2 = 1.0;
@@ -23,6 +23,8 @@ double nibun(double X, double a)
       if( p(x_1,a) * p(X,a) < 0 ){ x_2 = X; }
       if( p(x_1,a) * p(X,a) > 0 ){ x_1 = X; }
    }
+   
+   x = X;
 
-   return X;
+   return x;
 }
