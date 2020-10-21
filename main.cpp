@@ -58,7 +58,7 @@ int main() {
    std::mt19937 rand_src(12345);
    std::uniform_real_distribution<double> rand_r(0.0,1.0);
 
-   for( i=0; i<n; i++ ){
+   while( i < n ){
       a = data[i][7];
       x = nibun(X, a);
       cmax = cmax_dist(a, x, e);
