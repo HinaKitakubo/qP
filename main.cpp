@@ -68,9 +68,9 @@ int main() {
          c = rand_r(rand_src);
          P = cmax_dist(a, 1.0 - q*q, e);
       }while( cmax*c >= P );
-         std::cout << data[i][5] << " " << q << " " << P << " " << sqrt(1.0 - x) << " " << cmax << std::endl;
-         i++;
-      }
+      std::cout << data[i][5] << " " << q << " " << P << " " << sqrt(1.0 - x) << " " << cmax << std::endl;
+      i++;
+   }
 
    return 0;
 }
